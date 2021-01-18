@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Spectral';
+    src: url('spectral.extralight.eot');
+    src: url('spectral.extralight.eot?#iefix') format('embedded-opentype'),
+         url('spectral.extralight.woff2') format('woff2'),
+         url('spectral.extralight.woff') format('woff'),
+         url('spectral.extralight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('spectral.light.eot');
+    src: url('spectral.light.eot?#iefix') format('embedded-opentype'),
+         url('spectral.light.woff2') format('woff2'),
+         url('spectral.light.woff') format('woff'),
+         url('spectral.light.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+
+}

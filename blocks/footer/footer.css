@@ -1,0 +1,16 @@
+.footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 30px;
+}
+
+.footer__author {
+  max-width: 1080px;
+  padding-top: 10px;
+  margin: 0;
+  width: 100%;
+  border-top: 1px solid #ffdd55;
+
+  font-size: 1.5rem;
+}
