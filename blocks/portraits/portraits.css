@@ -1,3 +1,6 @@
+@import url("./__container/portraits__container.css");
+@import url("./__gallery/portraits__gallery.css");
+@import url("./__img/portraits__img.css");
 
 .portraits {
   min-height: 600px;
@@ -5,32 +8,4 @@
   justify-content: center;
   background-color: white;
   position: relative;
-}
-
-.portraits__container {
-  max-width: 1080px;
-  min-height: 450px;
-
-  position: absolute;
-  top: -50px;
-  z-index: 100;
-
-  display: flex;
-}
-
-.portraits__gallery {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
-  background-color: white;
-  margin: 0 120px;
-
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  padding: 10px;
-}
-
-.portraits__img {
-  width: 100%;
-  object-fit: cover;
-  height: 300px;
 }

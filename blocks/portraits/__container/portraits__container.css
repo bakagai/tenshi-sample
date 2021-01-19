@@ -1,0 +1,10 @@
+.portraits__container {
+  max-width: 1080px;
+  min-height: 450px;
+
+  position: absolute;
+  top: -50px;
+  z-index: 100;
+
+  display: flex;
+}

@@ -1,3 +1,10 @@
+@import url("./__avatar/lead__avatar.css");
+@import url("./__button/lead__button.css");
+@import url("./__container/lead__container.css");
+@import url("./__job/lead__job.css");
+@import url("./__mafuyus/lead__mafuyus.css");
+@import url("./__name/lead__name.css");
+@import url("./__profile/lead__profile.css");
 
 .lead {
   display: flex;
@@ -8,81 +15,4 @@
   background-size: 1000px;
   background-position-x: calc(50% + 225px);
   background-position-y: 50px;
-}
-
-.lead__container {
-  max-width: 1080px;
-  min-height: 500px;
-  width: 100%;
-  display: flex;
-  position: relative;
-}
-
-.lead__mafuyus {
-  position: absolute;
-  background-image: url("../../images/mafuyus.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-y: 30px;
-  height: 500px;
-  width: 450px;
-  z-index: 20;
-  bottom: 0;
-}
-
-.lead__profile {
-  z-index: 30;
-  right: 0;
-  position: absolute;
-  width: calc(100% - 450px);
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.lead__avatar {
-  background-image: url("../../images/portrait.png");
-  background-size: contain;
-  width: 180px;
-  height: 180px;
-  margin-bottom: 20px;
-
-  border: 4px solid white;
-  border-radius: 50%;
-}
-
-.lead__name {
-  margin: 0;
-  color: white;
-  margin-bottom: 10px;
-
-  font-size: 3.5rem;
-  font-weight: normal;
-}
-
-.lead__job {
-  margin: 0;
-  color: white;
-  margin-bottom: 15px;
-
-  font-size: 22px;
-  line-height: 1;
-  font-weight: normal;
-}
-
-.lead__button {
-  margin-bottom: 30px;
-  min-width: 150px;
-  background-color: transparent;
-  border: 1px solid #ffdd55;
-  font-size: 30px;
-  color: #ffdd55;
-}
-
-.lead__button:hover {
-  cursor: pointer;
-  opacity: .8;
 }

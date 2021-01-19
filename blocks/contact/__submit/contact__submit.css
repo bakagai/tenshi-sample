@@ -1,0 +1,14 @@
+.contact__submit {
+  width: 100%;
+  width: 150px;
+  margin-top: 40px;
+  background-color: transparent;
+  border: 2px  solid #222f3e;
+
+  font-size: 30px;
+}
+
+.contact__submit:hover {
+  cursor: pointer;
+  opacity: .8;
+}

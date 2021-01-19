@@ -1,0 +1,8 @@
+.contact__radio {
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.contact__radio:last-child {
+  margin-right: 0;
+}

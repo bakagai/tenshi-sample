@@ -1,0 +1,12 @@
+.lead__profile {
+  z-index: 30;
+  right: 0;
+  position: absolute;
+  width: calc(100% - 450px);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

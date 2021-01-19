@@ -1,0 +1,9 @@
+.services__item {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+.services__item:last-child {
+  margin-bottom: 0;
+}

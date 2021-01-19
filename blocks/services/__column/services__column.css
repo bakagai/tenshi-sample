@@ -1,0 +1,12 @@
+.services__column {
+  width: 100%;
+  text-align: center;
+  border-right: solid #ffdd55 2px;
+  padding: 25px 0;
+}
+
+.services__column:last-child {
+  width: 100%;
+  text-align: center;
+  border-right: none;
+}

@@ -1,0 +1,10 @@
+.portraits__gallery {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
+  background-color: white;
+  margin: 0 120px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}

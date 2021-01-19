@@ -1,0 +1,7 @@
+.lead__container {
+  max-width: 1080px;
+  min-height: 500px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}

@@ -1,0 +1,10 @@
+.header__container {
+  max-width: 1080px;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 25px 0 10px;
+}
