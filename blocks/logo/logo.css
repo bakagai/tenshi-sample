@@ -1,8 +1,14 @@
 .logo {
   background-image: url("../../images/logo.svg");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: contain;
   height: 50px;
   width: 250px;
+}
+
+@media screen and (max-width: 900px) {
+  .logo {
+    height: 40px;
+    width: 200px;
+  }
 }

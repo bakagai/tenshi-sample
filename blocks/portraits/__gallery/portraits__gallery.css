@@ -8,3 +8,9 @@
   grid-gap: 10px;
   padding: 10px;
 }
+
+@media screen and (max-width: 900px) {
+  .portraits__gallery{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
