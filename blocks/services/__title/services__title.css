@@ -12,3 +12,9 @@
     font-size: 1.8rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .services__title{
+    font-size: 1.5rem;
+  }
+}

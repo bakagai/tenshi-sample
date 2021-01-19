@@ -14,3 +14,9 @@
     padding: 25px 25px 10px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .header__container {
+    padding: 25px 25px 0px;
+  }
+}
