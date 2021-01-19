@@ -8,3 +8,10 @@
   border: 4px solid white;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 900px) {
+  .lead__avatar {
+    width: 150px;
+    height: 150px;
+  }
+}

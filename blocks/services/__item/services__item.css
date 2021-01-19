@@ -7,3 +7,9 @@
 .services__item:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .services__item{
+    font-size: 1.3rem;
+  }
+}
