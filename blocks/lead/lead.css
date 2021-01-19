@@ -16,3 +16,9 @@
   background-position-x: calc(50% + 225px);
   background-position-y: 50px;
 }
+
+@media screen and (max-width: 751px) {
+  .lead {
+    background-position-x: 50%;
+  }
+}
